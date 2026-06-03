@@ -1,0 +1,10 @@
+# user-specific config (copy from config.example.json)
+config.json
+
+# runtime logs
+warmer.log
+*.log
+
+# internal / dogfood (not for the public repo)
+DOGFOOD-NOTES.md
+.DS_Store
