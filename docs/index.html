@@ -149,8 +149,10 @@
 
   <section id="setup">
     <h2>Setup — 1, 2, 3</h2>
-    <p class="lead">Run on the always-on box that already has the official Claude Code CLI logged in
-      (the same VPS you develop with). If <code>claude -p "hi"</code> answers there, you're ready.</p>
+    <p class="lead">Install it on the always-on box that already has the official Claude Code CLI
+      logged in (the same VPS you develop with). If <code>claude -p "hi"</code> answers there, you're ready.</p>
+<pre style="margin-bottom:22px">npx skills add DecisionVex/claude-session-warmer   <span class="c"># skills.sh</span>
+clawhub install claude-session-warmer              <span class="c"># OpenClaw / ClawHub</span></pre>
     <div class="steps">
       <div class="step">
         <h3><span class="num">1</span> Set your timezone &amp; start time</h3>

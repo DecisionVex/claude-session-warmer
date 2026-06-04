@@ -5,8 +5,14 @@
 <p align="center">
   <a href="references/tos.md">Why it's allowed</a> ·
   <a href="https://decisionvex.github.io/claude-session-warmer/">Website</a> ·
+  <a href="#install">Install</a> ·
   <a href="#setup--1-2-3">Setup</a> ·
   <a href="LICENSE">MIT</a>
+</p>
+
+<p align="center">
+  <a href="https://skills.sh/DecisionVex/claude-session-warmer"><img src="https://skills.sh/b/DecisionVex/claude-session-warmer" alt="skills.sh installs"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License"></a>
 </p>
 
 **Align your Claude Pro/Max usage window to your working hours.** Built for people who
@@ -39,6 +45,23 @@ doesn't try — it only changes *when* the window opens. See
 [`references/tos.md`](references/tos.md): this is the official-CLI automation exemption,
 and it is *not* the token-spoofing thing Anthropic enforces against. Read it before
 sharing.
+
+## Install
+
+From the [skills.sh](https://skills.sh/DecisionVex/claude-session-warmer) agent-skills
+directory (works for Claude Code on your box):
+
+```bash
+npx skills add DecisionVex/claude-session-warmer
+```
+
+On OpenClaw via ClawHub:
+
+```bash
+clawhub install claude-session-warmer
+```
+
+Or clone this repo directly onto the box. Then follow **Setup** below.
 
 ## Prerequisite
 
