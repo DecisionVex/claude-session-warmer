@@ -2,6 +2,14 @@
   <img src="assets/hero.png" alt="claude-session-warmer" width="100%">
 </p>
 
+> [!IMPORTANT]
+> **Deprecated as of June 2026.** In June 2026 Anthropic moved non-interactive usage
+> (`claude -p`, the Agent SDK, GitHub Actions) onto a separate monthly credit pool, so a
+> `claude -p` primer **no longer anchors your interactive 5-hour window** — the mechanism this
+> skill relied on. There is no ToS-defensible way to prime the window automatically anymore.
+> Use the honest successor instead, which monitors that new credit pool and reminds you to start
+> your interactive session: **[claude-usage-companion](https://github.com/DecisionVex/claude-usage-companion)**.
+
 <p align="center">
   <a href="references/tos.md">Why it's allowed</a> ·
   <a href="https://decisionvex.github.io/claude-session-warmer/">Website</a> ·

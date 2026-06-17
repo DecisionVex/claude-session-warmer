@@ -15,6 +15,12 @@ description: >-
 
 # claude-session-warmer
 
+> **⚠ DEPRECATED (June 2026).** Anthropic moved `claude -p` / Agent SDK / GitHub Actions onto a
+> separate monthly credit pool, so a `claude -p` primer no longer anchors the interactive 5-hour
+> window — the mechanism this skill depended on. There is no ToS-defensible way to prime the
+> window automatically now. Use the successor **claude-usage-companion** (monitors the new credit
+> pool + reminds you to start your interactive session) instead.
+
 Make your Claude Pro/Max usage window start *when you want it to* — not whenever your
 first prompt of the day happens to land.
 
